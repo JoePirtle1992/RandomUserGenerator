@@ -1,0 +1,139 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+html, body {
+width: 100%;
+height: 100%;
+}
+
+
+
+#unchained-melody {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, rgba(77, 91, 100, 0.5), rgba(112, 109, 109, 0.5)), url('../img/blurry.jpeg');
+    background-size: cover;
+    object-fit: cover;
+}
+
+#main-div {
+    width: 20%;
+    text-align: center;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 7px 5px 15px -4px #000000; 
+    box-shadow: 7px 5px 15px -4px #000000;
+}
+
+.image-container {
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+}
+
+#da-image {
+    animation: tightenUp 1s;
+    border: solid 3.6px white;
+    object-fit: cover;
+}
+
+.image-container {
+    background: rgb(8,40,142);
+background: -moz-linear-gradient(293deg, rgba(8,40,142,1) 45%, rgba(0,212,255,0.7819721638655462) 100%);
+background: -webkit-linear-gradient(293deg, rgba(8,40,142,1) 45%, rgba(0,212,255,0.7819721638655462) 100%);
+background: linear-gradient(293deg, rgba(8,40,142,1) 45%, rgba(0,212,255,0.7819721638655462) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#08288e",endColorstr="#00d4ff",GradientType=1);
+}
+
+
+.data-container > p {
+    padding: .1em;
+}
+
+
+#name {
+    font-size: 1.6em;
+}
+
+#da-button {
+    border-radius: 2px;
+    border: none;
+    background-color: #7acbeb;
+    -webkit-box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.85); 
+box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.85);
+font-family: 'Lato';
+}
+
+button#da-button {
+    padding: 1.2em;
+    margin: 1em;
+    color: white;
+    font-weight: 400;
+}
+.data-container{
+    padding-top: 1em;
+}
+
+@keyframes tightenUp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+#da-button {
+    padding: 1.2em;
+}
+
+#da-image {
+    border-radius: 50%;
+}
+
+.title {
+    font-family: 'Lato';
+    font-weight: 900;
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+ @media screen and (max-width: 1150px) {
+  body {
+  background-color: pink;
+  }
+  #main-div {
+      width: 40%;
+  }
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+  body {
+  background-color: green;
+  }
+  #main-div {
+      width: 60%;
+  }
+  .title {
+    font-size: 1.4em;
+}
+  }
+
+@media screen and (max-width: 440px){
+    body {
+        background-color: yellow;
+    }
+    .title {
+        font-size: 1.16em;
+    }
+}

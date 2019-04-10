@@ -1,0 +1,19 @@
+{
+  "name": "RandomUserGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
